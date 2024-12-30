@@ -2,7 +2,7 @@ import axios from "axios"
 
 export default class ApiService {
 
-    static BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:8080";
+    static BASE_URL = https://velvet-horizon-latest.onrender.com
 
     static getHeader() {
         const token = localStorage.getItem("token");
